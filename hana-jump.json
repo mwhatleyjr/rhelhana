@@ -78,7 +78,7 @@
 
         "scriptParameters": "[concat(' -BaseURI ', parameters('customUri'))]",
 
-        "fileuri":"https://raw.githubusercontent.com/AzureCAT-GSI/Hana-Test-Deploy/master/hanastudio.ps1"
+        "fileuri":"https://github.com/mwhatleyjr/rhelhana/blob/master/hanastudio.ps1"
 
         
 

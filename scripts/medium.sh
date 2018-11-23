@@ -206,12 +206,6 @@ if [ ! -d "/hana/data/sapbits" ]
 
 fi
 
-
-
-
-
-#https://wn25unog4spba.blob.core.windows.net/sapbits
-
 #!/bin/bash
 
 cd /hana/data/sapbits
@@ -228,10 +222,9 @@ echo "hana download start" >> /tmp/parameter.txt
 
 /usr/bin/wget --quiet $Uri/sapbits/51052325_part4.rar
 
-/usr/bin/wget --quiet "https://raw.githubusercontent.com/AzureCAT-GSI/SAP-HANA-S4/master/hdbinst.cfg"
+/usr/bin/wget --quiet "https://github.com/mwhatleyjr/rhelhana/blob/master/hdbinst.cfg"
 
 echo "hana download end" >> /tmp/parameter.txt
-
 
 
 date >> /tmp/testdate

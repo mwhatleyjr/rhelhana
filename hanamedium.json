@@ -25,7 +25,7 @@
             "metadata": {
                 "description": "Operating system for HANA Machine"
             },
-            "defaultValue": "SLES for SAP 12 SP3",
+            "defaultValue": "RHEL 7.2 for SAP HANA",
             "allowedValues": 
 	    [
 		"SLES for SAP 12 SP3",
